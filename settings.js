@@ -160,6 +160,9 @@ module.exports = {
                     { name: 'Aqueduc Climb Fwd', x: -123859.24, y: -135913.56, image: 'climbstart', rotate: 30 },
                     { name: 'Aqueduc', x: -94242.2, y: -146578.3, image: 'kom', rotate: 30 },
                     { name: 'Aqueduc Climb Re', x: -99473.586, y: -172890.92, image: 'climbstart', rotate: 300 },
+                    { name: 'Sprint en Pavé Fwd', x: -47485.848, y: -233251.88, image: 'sprintstart', rotate: 90, segmentlength: 0 },
+                    { name: 'Sprint en Pavé', x: -30680.646, y: -257683.1, image: 'sprint', rotate: 70 },
+                    { name: 'Sprint en Pavé Rev', x: -46596.625, y: -283099.3, image: 'sprintstart', rotate: 45, segmentlength: 0 },
                 ])
             }
         },
