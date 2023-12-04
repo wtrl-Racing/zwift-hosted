@@ -159,7 +159,7 @@ module.exports = {
                     { name: 'Sprint en ballon Rev', x: -291141.44, y: -114804.4, image: 'sprintstart', rotate: 45, segmentlength: 320 },
                     { name: 'Aqueduc Climb Fwd', x: -123859.24, y: -135913.56, image: 'climbstart', rotate: 30 },
                     { name: 'Aqueduc', x: -94242.2, y: -146578.3, image: 'kom', rotate: 30 },
-                    { name: 'Aqueduc Climb Rev', x: -99473.586, y: -172890.92, image: 'climbstart', rotate: 300 },
+                    { name: 'Aqueduc Climb Re', x: -99473.586, y: -172890.92, image: 'climbstart', rotate: 300 },
                 ])
             }
         },
