@@ -154,6 +154,8 @@ module.exports = {
             credit: { prompt: 'Powered by', name: 'WTRL Racing', href: 'https://www.wtrl.racing' },
             points: {
                 get: () => Promise.resolve([
+                    {
+                        name: 'Sprint en ballon', x: -274705.97, y: -107773.24, image: 'sprint', rotate: 50 },
                 ])
             }
         },
