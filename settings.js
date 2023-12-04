@@ -154,9 +154,12 @@ module.exports = {
             credit: { prompt: 'Powered by', name: 'WTRL Racing', href: 'https://www.wtrl.racing' },
             points: {
                 get: () => Promise.resolve([
-                    { name: 'Sprint en ballon Fwd', x: -247291.55, y: -106437.42, image: 'sprintstart', rotate: 45, segmentlength: 210 },
+                    { name: 'Sprint en ballon Fwd', x: -247291.55, y: -106437.42, image: 'sprintstart', rotate: 90, segmentlength: 210 },
                     { name: 'Sprint en ballon', x: -274705.97, y: -107773.24, image: 'sprint', rotate: 70 },
                     { name: 'Sprint en ballon Rev', x: -291141.44, y: -114804.4, image: 'sprintstart', rotate: 45, segmentlength: 320 },
+                    { name: 'Aqueduc Climb Fwd', x: -123859.24, y: -135913.56, image: 'climbstart', rotate: 30 },
+                    { name: 'Aqueduc', x: -94242.2, y: -146578.3, image: 'kom', rotate: 30 },
+                    { name: 'Aqueduc Climb Rev', x: -99473.586, y: -172890.92, image: 'climbstart', rotate: 300 },
                 ])
             }
         },
