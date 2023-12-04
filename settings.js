@@ -9,7 +9,7 @@ module.exports = {
             background: '#0886E4',
             viewBox: '-973000 -835500 1555300 1145400', // '-691045 -808000 1570300 1106100',
             rotate: "(-90,122141,234864)",
-            translate: "(949427,295876)",
+            translate: "(948000,16570)",
             credit: { prompt: 'Powered by', name: 'WTRL Racing', href: 'https://www.wtrl.racing' },
             points: {
                 get: () => Promise.resolve([
@@ -40,7 +40,7 @@ module.exports = {
                     { name: 'Acropolis Sprint', x: -727499.1, y: 25671.162, image: 'sprint', rotate: 90 },*/
                     /*{ name: 'Acropolis Rev Start', x: -227425.2, y: 65148.137, image: 'sprintstart', rotate: 15 },*/
                     { name: 'Sasquatch Fwd Start', x: -709783.8, y: 293150.53, image: 'sprintstart', rotate: 45 },
-                    { name: 'Sasquatch Sprint', x: -739764.1, y: 287320.56, image: 'sprint', rotate: 80 },
+                    { name: 'Sasquatch Sprint', x: -739764.1, y: 287720.56, image: 'sprint', rotate: 80 },
                     { name: 'Sasquatch Rev Start', x: -772783.8, y: 283150.53, image: 'sprintstart', rotate: 190 },
                 ])
             }
