@@ -163,18 +163,14 @@ module.exports = {
                     { name: 'Sprint en Pavé Fwd', x: -47485.848, y: -233251.88, image: 'sprintstart', rotate: 90, segmentlength: 0 },
                     { name: 'Sprint en Pavé', x: -30210.646, y: -257683.1, image: 'sprint', rotate: 0 },
                     { name: 'Sprint en Pavé Rev', x: -46596.625, y: -283099.3, image: 'sprintstart', rotate: 290, segmentlength: 0 },
+
                     { name: 'Sprint en Marina Fwd', x: -483842.6, y: -224176.94, image: 'sprintstart', rotate: 90, segmentlength: 0 },
                     { name: 'Sprint en Marina', x: -475820.1, y: -239852.78, image: 'start', rotate: 0 },
                     { name: 'Sprint en Marina Rev', x: -485555.1, y: -267500.25, image: 'sprintstart', rotate: 290, segmentlength: 0 },
+
                     { name: 'Petit KQOM Fwd', x: -285486.38, y: -53821.797, image: 'climbstart', rotate: 30 },
                     { name: 'Petit', x: -310622.78, y: 47188.207, image: 'kom', rotate: 0 },
                     { name: 'Petit KQOM Rev', x: -405119.6, y: -12063.793, image: 'climbstart', rotate: 270 },
-                    { name: 'Sprint en Marina Fwd', x: -483842.6, y: -224176.94, image: 'sprintstart', rotate: 90, segmentlength: 0 },
-                    { name: 'Sprint en Marina', x: -475920.1, y: -240152.78, image: 'start', rotate: 0 },
-                    { name: 'Sprint en Marina Rev', x: -483655.1, y: -267500.25, image: 'sprintstart', rotate: 290, segmentlength: 0 },
-                    { name: 'Petit KQOM Fwd', x: -285486.38, y: -53821.797, image: 'climbstart', rotate: 30 },
-                    { name: 'Petit', x: -310922.78, y: 47188.207, image: 'kom', rotate: 30 },
-                    { name: 'Petit KQOM Rev', x: -405119.6, y: -12063.793, image: 'climbstart', rotate: 300 },
 
                 ])
             }
