@@ -4,7 +4,7 @@ const GoldRush = require('./goldrush');
 module.exports = {
     worlds: {
         1: {
-            map: '/maps/watopia.jpg',
+            map: '/maps/watopia.png',
             roads: '/maps/watopia-roads.json',
             background: '#0886E4',
             viewBox: '-973000 -835500 1555300 1145400', // '-691045 -808000 1570300 1106100',
