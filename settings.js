@@ -157,15 +157,17 @@ module.exports = {
                     { name: 'Sprint en ballon Fwd', x: -247291.55, y: -106437.42, image: 'sprintstart', rotate: 90, segmentlength: 210 },
                     { name: 'Sprint en ballon', x: -274705.97, y: -107773.24, image: 'sprint', rotate: 70 },
                     { name: 'Sprint en ballon Rev', x: -291141.44, y: -114804.4, image: 'sprintstart', rotate: 45, segmentlength: 320 },
+
                     { name: 'Aqueduc KQOM Fwd', x: -123859.24, y: -135913.56, image: 'climbstart', rotate: 30 },
                     { name: 'Aqueduc', x: -94242.2, y: -146578.3, image: 'kom', rotate: 30 },
                     { name: 'Aqueduc KQOM Rev', x: -99473.586, y: -172890.92, image: 'climbstart', rotate: 300 },
+
                     { name: 'Sprint en Pavé Fwd', x: -47485.848, y: -233251.88, image: 'sprintstart', rotate: 90, segmentlength: 0 },
                     { name: 'Sprint en Pavé', x: -30210.646, y: -257683.1, image: 'sprint', rotate: 0 },
                     { name: 'Sprint en Pavé Rev', x: -46596.625, y: -283099.3, image: 'sprintstart', rotate: 290, segmentlength: 0 },
 
                     { name: 'Sprint en Marina Fwd', x: -483842.6, y: -224176.94, image: 'sprintstart', rotate: 90, segmentlength: 0 },
-                    { name: 'Sprint en Marina', x: -475820.1, y: -239852.78, image: 'start', rotate: 0 },
+                    { name: 'Départ de la marina', x: -475820.1, y: -239852.78, image: 'start', rotate: 0 },
                     { name: 'Sprint en Marina Rev', x: -485555.1, y: -267500.25, image: 'sprintstart', rotate: 290, segmentlength: 0 },
 
                     { name: 'Petit KQOM Fwd', x: -285486.38, y: -53821.797, image: 'climbstart', rotate: 30 },
