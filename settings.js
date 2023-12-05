@@ -167,7 +167,7 @@ module.exports = {
                     { name: 'Sprint en Pavé Rev', x: -46596.625, y: -283099.3, image: 'sprintstart', rotate: 290, segmentlength: 0 },
 
                     { name: 'Sprint en Marina Fwd', x: -483842.6, y: -224176.94, image: 'sprintstart', rotate: 90, segmentlength: 0 },
-                    { name: 'Départ de la marina', x: -475820.1, y: -239852.78, image: 'start', rotate: 0 },
+                    { name: 'Départ de la marina', x: -475820.1, y: -239852.78, image: 'start', rotate: 50 },
                     { name: 'Sprint en Marina Rev', x: -485555.1, y: -267500.25, image: 'sprintstart', rotate: 290, segmentlength: 0 },
 
                     { name: 'Petit KQOM Fwd', x: -285486.38, y: -53821.797, image: 'climbstart', rotate: 30 },
