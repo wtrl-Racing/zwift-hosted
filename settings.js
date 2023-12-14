@@ -199,16 +199,16 @@ module.exports = {
             points: {
                 get: () => Promise.resolve([
                     { name: 'Flatland Loop', x: 0, y: 0, image: 'start', rotate: 0, archId: 0 },
-                    { name: 'Castle KQOM', x: -102494.72, y: 112391.54, image: 'kom', rotate: 30, archId: 3 },
+                    { name: 'Castle KQOM', x: -102494.72, y: 112391.54, image: 'kom', rotate: -15, archId: 3 },
                     { name: 'Village Sprint', x: -103426.56, y: 124399.305, image: 'sprint', rotate: 130, archId: 4 },
                     { name: 'Country Sprint', x: -60594.54, y: 13331.565, image: 'sprint', rotate: -10, archId: 5 },
                     { name: 'Temple KQOM', x: -123410.34, y: 210561.81, image: 'kom', rotate: 130, archId: 6 },
                     { name: 'Rooftop KQOM', x: -426834.1, y: 96230, image: 'kom', rotate: 90, archId: 7 },
                     { name: 'Railway Sprint', x: -401190.3, y: 43402.43, image: 'sprint', rotate: 100, archId: 8 },
                     { name: 'Tower Sprint', x: -473635.38, y: -5284.0474, image: 'sprint', rotate: 90, archId: 9 },
-                    { name: 'Alley Sprint', x: -566526.1, y: 120271.93, image: 'sprint', rotate: 0, archId: 10 },
+                    { name: 'Alley Sprint', x: -566526.1, y: 120271.93, image: 'sprint', rotate: -30, archId: 10 },
                     { name: 'Castle Park Sprint', x: -565464.75, y: 63487.91, image: 'sprint', rotate: 90, archId: 11 },
-                    { name: 'Tide Pool Sprint', x: -574205.3, y: -170751.81, image: 'sprint', rotate: 90, archId: 12 },
+                    { name: 'Tide Pool Sprint', x: -574205.3, y: -171051.8, image: 'sprint', rotate: 80, archId: 12 },
                     { name: 'Boardwalk Sprint', x: -639683, y: -323100, image: 'sprint', rotate: 90, archId: 12 },
                     { name: 'Shisa Sprint', x: -666683, y: -358964.06, image: 'sprint', rotate: 43, archId: 14 },
 
