@@ -199,7 +199,7 @@ module.exports = {
             points: {
                 get: () => Promise.resolve([
                     { name: 'Flatland Loop', x: 0, y: 0, image: 'start', rotate: 0, archId: 0 },
-                    { name: 'Castle KQOM', x: -102494.72, y: 112391.54, image: 'kom', rotate: -15, archId: 3 },
+                    { name: 'Castle KQOM', x: -102054, y: 112391.54, image: 'kom', rotate: 120, archId: 3 },
                     { name: 'Village Sprint', x: -103426.56, y: 124399.305, image: 'sprint', rotate: 130, archId: 4 },
                     { name: 'Country Sprint', x: -60594.54, y: 13331.565, image: 'sprint', rotate: -10, archId: 5 },
                     { name: 'Temple KQOM', x: -123410.34, y: 210561.81, image: 'kom', rotate: 130, archId: 6 },
