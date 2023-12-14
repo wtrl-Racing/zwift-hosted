@@ -208,9 +208,9 @@ module.exports = {
                     { name: 'Tower Sprint', x: 0, y: 0, image: 'sprint', rotate: 90, archId: 9 },
                     { name: 'Alley Sprint', x: 0, y: 0, image: 'sprint', rotate: 0, archId: 10 },
                     { name: 'Castle Park Sprint', x: 0, y: 0, image: 'sprint', rotate: 90, archId: 11 },
-                    { name: 'Tide Pool Sprint', x: 0, y: 0, image: 'sprint', rotate: 90, archId: 12 },
+                    { name: 'Tide Pool Sprint', x: -574205.3, y: -170751.81, image: 'sprint', rotate: 90, archId: 12 },
                     { name: 'Boardwalk Sprint', x: 0, y: 0, image: 'sprint', rotate: 90, archId: 12 },
-                    { name: 'Shisa Sprint', x: -666483, y: -358364.06, image: 'sprint', rotate: 90, archId: 14 },
+                    { name: 'Shisa Sprint', x: -666683, y: -358964.06, image: 'sprint', rotate: 43, archId: 14 },
 
                     { name: 'Castle KQOM Fwd', x: 0, y: 0, image: 'climbstart', rotate: 90, segmentlength: 0 },
                     { name: 'Village Sprint Fwd', x: -108422.875, y: 111794.29, image: 'sprintstart', rotate: 90, segmentlength: 0 },
@@ -227,12 +227,12 @@ module.exports = {
                     { name: 'Alley Sprint Rev', x: 0, y: 0, image: 'sprintstart', rotate: 90, segmentlength: 0 },
                     { name: 'Castle Park Fwd', x: 0, y: 0, image: 'sprintstart', rotate: 90, segmentlength: 0 },
                     { name: 'Castle Park Rev', x: 0, y: 0, image: 'sprintstart', rotate: 90, segmentlength: 0 },
-                    { name: 'Tide Pool Sprint Fwd', x: 0, y: 0, image: 'sprintstart', rotate: 90, segmentlength: 0 },
-                    { name: 'Tide Pool Sprint Rev', x: 0, y: 0, image: 'sprintstart', rotate: 90, segmentlength: 0 },
+                    { name: 'Tide Pool Sprint Fwd', x: -605689.6, y: -169971.95, image: 'sprintstart', rotate: 90, segmentlength: 0 },
+                    { name: 'Tide Pool Sprint Rev', x: -546483.56, y: -182414.56, image: 'sprintstart', rotate: 90, segmentlength: 0 },
                     { name: 'Boardwalk Sprint Fwd', x: 0, y: 0, image: 'sprintstart', rotate: 90, segmentlength: 0 },
                     { name: 'Boardwalk Sprint Rev', x: 0, y: 0, image: 'sprintstart', rotate: 90, segmentlength: 0 },
                     { name: 'Shisa Sprint Fwd', x: -649959.06, y: -380118.94, image: 'sprintstart', rotate: 90, segmentlength: 0 },
-                    { name: 'Shisa Sprint Rev', x: -688385.1, y: -343051.7, image: 'sprintstart', rotate: 90, segmentlength: 0 },
+                    { name: 'Shisa Sprint Rev', x: -689385.1, y: - 344051.7, image: 'sprintstart', rotate: -20, segmentlength: 0 },
 
                 ])
             }
