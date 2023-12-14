@@ -209,7 +209,7 @@ module.exports = {
                     { name: 'Alley Sprint', x: -566526.1, y: 120271.93, image: 'sprint', rotate: 0, archId: 10 },
                     { name: 'Castle Park Sprint', x: -565464.75, y: 63487.91, image: 'sprint', rotate: 90, archId: 11 },
                     { name: 'Tide Pool Sprint', x: -574205.3, y: -170751.81, image: 'sprint', rotate: 90, archId: 12 },
-                    { name: 'Boardwalk Sprint', x: 0, y: 0, image: 'sprint', rotate: 90, archId: 12 },
+                    { name: 'Boardwalk Sprint', x: -639683, y: -323100, image: 'sprint', rotate: 90, archId: 12 },
                     { name: 'Shisa Sprint', x: -666683, y: -358964.06, image: 'sprint', rotate: 43, archId: 14 },
 
                     { name: 'Castle KQOM Fwd', x: 0, y: 0, image: 'climbstart', rotate: 90, segmentlength: 0 },
