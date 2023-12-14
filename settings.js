@@ -210,9 +210,9 @@ module.exports = {
                     { name: 'Castle Park Sprint', x: 0, y: 0, image: 'sprint', rotate: 90, archId: 11 },
                     { name: 'Tide Pool Sprint', x: 0, y: 0, image: 'sprint', rotate: 90, archId: 12 },
                     { name: 'Boardwalk Sprint', x: 0, y: 0, image: 'sprint', rotate: 90, archId: 12 },
-                    { name: 'Shisa Sprint', x: 0, y: 0, image: 'sprint', rotate: 90, archId: 14 },
+                    { name: 'Shisa Sprint', x: -666483, y: -358364.06, image: 'sprint', rotate: 90, archId: 14 },
 
-                    { name: 'Castle KQOM Fwd', x: -103494.72, y: 111791.54, image: 'climbstart', rotate: 90, segmentlength: 0 },
+                    { name: 'Castle KQOM Fwd', x: 0, y: 0, image: 'climbstart', rotate: 90, segmentlength: 0 },
                     { name: 'Village Sprint Fwd', x: -108422.875, y: 111794.29, image: 'sprintstart', rotate: 90, segmentlength: 0 },
                     { name: 'Village Sprint Rev', x: 0, y: 0, image: 'sprintstart', rotate: 90, segmentlength: 0 },
                     { name: 'Country Sprint Fwd', x: -67227.04, y: 3546.549, image: 'sprintstart', rotate: 90, segmentlength: 0 },
@@ -231,8 +231,8 @@ module.exports = {
                     { name: 'Tide Pool Sprint Rev', x: 0, y: 0, image: 'sprintstart', rotate: 90, segmentlength: 0 },
                     { name: 'Boardwalk Sprint Fwd', x: 0, y: 0, image: 'sprintstart', rotate: 90, segmentlength: 0 },
                     { name: 'Boardwalk Sprint Rev', x: 0, y: 0, image: 'sprintstart', rotate: 90, segmentlength: 0 },
-                    { name: 'Shisa Sprint Fwd', x: 0, y: 0, image: 'sprintstart', rotate: 90, segmentlength: 0 },
-                    { name: 'Shisa Sprint Rev', x: 0, y: 0, image: 'sprintstart', rotate: 90, segmentlength: 0 },
+                    { name: 'Shisa Sprint Fwd', x: -649959.06, y: -380118.94, image: 'sprintstart', rotate: 90, segmentlength: 0 },
+                    { name: 'Shisa Sprint Rev', x: -688385.1, y: -343051.7, image: 'sprintstart', rotate: 90, segmentlength: 0 },
 
                 ])
             }
