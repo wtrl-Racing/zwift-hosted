@@ -209,7 +209,7 @@ module.exports = {
                     { name: 'Alley Sprint', x: -566526.1, y: 120271.93, image: 'sprint', rotate: -30, archId: 10 },
                     { name: 'Castle Park Sprint', x: -565464.75, y: 63487.91, image: 'sprint', rotate: 90, archId: 11 },
                     { name: 'Tide Pool Sprint', x: -574205.3, y: -171051.8, image: 'sprint', rotate: 80, archId: 12 },
-                    { name: 'Boardwalk Sprint', x: -639683, y: -323100, image: 'sprint', rotate: 90, archId: 12 },
+                    { name: 'Boardwalk Sprint', x: -618929.7, y: -322645.28, image: 'sprint', rotate: 90, archId: 12 },
                     { name: 'Shisa Sprint', x: -666683, y: -358964.06, image: 'sprint', rotate: 43, archId: 14 },
 
                     { name: 'Castle KQOM Fwd', x: 0, y: 0, image: 'climbstart', rotate: 90, segmentlength: 0 },
@@ -229,8 +229,8 @@ module.exports = {
                     { name: 'Castle Park Rev', x: -568284.9, y: 79451.33, image: 'sprintstart', rotate: 90, segmentlength: 0 },
                     { name: 'Tide Pool Sprint Fwd', x: -605689.6, y: -169971.95, image: 'sprintstart', rotate: 90, segmentlength: 0 },
                     { name: 'Tide Pool Sprint Rev', x: -546483.56, y: -182414.56, image: 'sprintstart', rotate: 90, segmentlength: 0 },
-                    { name: 'Boardwalk Sprint Fwd', x: 0, y: 0, image: 'sprintstart', rotate: 90, segmentlength: 0 },
-                    { name: 'Boardwalk Sprint Rev', x: 0, y: 0, image: 'sprintstart', rotate: 90, segmentlength: 0 },
+                    { name: 'Boardwalk Sprint Fwd', x: -595350.2, y: -322610.75, image: 'sprintstart', rotate: 90, segmentlength: 0 },
+                    { name: 'Boardwalk Sprint Rev', x: -649244.6, y: -322727, image: 'sprintstart', rotate: 90, segmentlength: 0 },
                     { name: 'Shisa Sprint Fwd', x: -649959.06, y: -380118.94, image: 'sprintstart', rotate: 90, segmentlength: 0 },
                     { name: 'Shisa Sprint Rev', x: -689385.1, y: - 344051.7, image: 'sprintstart', rotate: -20, segmentlength: 0 },
 
