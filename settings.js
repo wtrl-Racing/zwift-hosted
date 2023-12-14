@@ -199,9 +199,10 @@ module.exports = {
             points: {
                 get: () => Promise.resolve([
                     { name: 'Flatland Loop', x: 0, y: 0, image: 'start', rotate: 0, archId: 0 },
-                    { name: 'Village Sprint', x: 0, y: 0, image: 'sprint', rotate: 90, archId: 4 },
-                    { name: 'Country Sprint', x: -60594.54, y: 13331.565, image: 'sprint', rotate: 170, archId: 5 },
-                    { name: 'Temple KQOM', x: -123410.34, y: 210561.81, image: 'kom', rotate: 90, archId: 6 },
+                    { name: 'Castle KQOM', x: -103494.72, y: 111791.54, image: 'kom', rotate: 90, archId: 3 },
+                    { name: 'Village Sprint', x: -103426.56, y: 124399.305, image: 'sprint', rotate: 90, archId: 4 },
+                    { name: 'Country Sprint', x: -60594.54, y: 13331.565, image: 'sprint', rotate: 10, archId: 5 },
+                    { name: 'Temple KQOM', x: -123410.34, y: 210561.81, image: 'kom', rotate: 130, archId: 6 },
                     { name: 'Rooftop KQOM', x: -426834.1, y: 96230, image: 'kom', rotate: 90, archId: 7 },
                     { name: 'Railway Sprint', x: -401190.3, y: 43402.43, image: 'sprint', rotate: 100, archId: 8 },
                     { name: 'Tower Sprint', x: 0, y: 0, image: 'sprint', rotate: 90, archId: 9 },
@@ -211,11 +212,12 @@ module.exports = {
                     { name: 'Boardwalk Sprint', x: 0, y: 0, image: 'sprint', rotate: 90, archId: 12 },
                     { name: 'Shisa Sprint', x: 0, y: 0, image: 'sprint', rotate: 90, archId: 14 },
 
-                    { name: 'Village Sprint Fwd', x: 0, y: 0, image: 'sprintstart', rotate: 90, segmentlength: 0 },
+                    { name: 'Castle KQOM Fwd', x: -103494.72, y: 111791.54, image: 'climbstart', rotate: 90, segmentlength: 0 },
+                    { name: 'Village Sprint Fwd', x: -108422.875, y: 111794.29, image: 'sprintstart', rotate: 90, segmentlength: 0 },
                     { name: 'Village Sprint Rev', x: 0, y: 0, image: 'sprintstart', rotate: 90, segmentlength: 0 },
                     { name: 'Country Sprint Fwd', x: -67227.04, y: 3546.549, image: 'sprintstart', rotate: 90, segmentlength: 0 },
                     { name: 'Country Sprint Rev', x: -56473.617, y: 25881.627, image: 'sprintstart', rotate: -85, segmentlength: 0 },
-                    { name: 'Temple KQOM Fwd', x: 15157.527, y: 199205.5, image: 'climbstart', rotate: 30 },
+                    { name: 'Temple KQOM Fwd', x: 15157.527, y: 199205.5, image: 'climbstart', rotate: 230 },
                     { name: 'Temple KQOM Rev', x: 0, y: 0, image: 'climbstart', rotate: 30 },
                     { name: 'Rooftop KQOM Fwd', x: 0, y: 0, image: 'climbstart', rotate: 30 },
                     { name: 'Railway Sprint Fwd', x: 0, y: 0, image: 'sprintstart', rotate: 90, segmentlength: 0 },
