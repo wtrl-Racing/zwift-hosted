@@ -22,6 +22,7 @@ module.exports = {
                     /*{ name: 'JWB Rev Start', x: -24300, y: -40500, image: 'sprintstart', rotate: 60 },
                     { name: 'Epic Fwd Start', x: -361987, y: 86048, image: 'climbstart', rotate: 30 },*/
                     { name: 'Epic KOM', x: -361987, y: 86048, image: 'mountain', rotate: 30 },
+                    { name: 'Titans Grove KOM', x: -51583, y: 257712, image: 'sprint', rotate: 70 },
                     { name: 'Jungle Start', x: -498100, y: -265679, image: 'start', rotate: 10 },
                     { name: 'Fuego Sprint', x: 62256, y: 321485, image: 'sprint', rotate: 170 },
                     /*{ name: 'Epic Rev Start', x: -361987, y: 86048, image: 'climbstart', rotate: 30 },
