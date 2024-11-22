@@ -13,7 +13,7 @@ module.exports = {
             credit: { prompt: 'Powered by', name: 'WTRL Racing', href: 'https://www.wtrl.racing' },
             points: {
                 get: () => Promise.resolve([
-                    { name: 'Start Banner', x: 104000, y: -10000, image: 'start', rotate: 170 },
+                    { name: 'Start Banner', x: 104000, y: -10001, image: 'start', rotate: 170 },
                    /* { name: 'Hilly Fwd Start', x: 49683, y: 54712, image: 'climbstart', rotate: 60 },*/
                     { name: 'Hilly KOM', x: 49683, y: 54712, image: 'kom', rotate: 60 },
                     /*{ name: 'Hilly Rev Start', x: 49683, y: 54712, image: 'climbstart', rotate: 60 },*/
