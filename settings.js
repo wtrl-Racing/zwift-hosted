@@ -1,6 +1,7 @@
 const ZwiftQuest = require('./zwiftquest');
 const GoldRush = require('./goldrush');
 
+
 module.exports = {
     worlds: {
         1: {
