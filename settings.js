@@ -96,11 +96,14 @@ module.exports = {
                     { name: 'Power Test', x: -189902, y: 433985, image: 'sprint', rotate: 30 },
                     { name: 'Manhattan Sprint Fwd Start', x: -125956, y: 643472, image: 'sprintstart', rotate: -15 },
                     { name: 'Manhattan Sprint', x: -115353, y: 666944, image: 'sprint', rotate: -15 },
+                    { name: '20 Second Power', x: -57082.29, y: 912502.56, image: 'sprint', rotate: -15 },
                     { name: 'The Hill KOM Start', x: 85942.87, y: 1123035.2, image: 'climbstart', rotate: 0 },
                     { name: 'The Hill KOM', x: 66615, y: 1080933, image: 'kom', rotate: 0 },
                     { name: 'Start Banner', x: 37526.816, y: 1109787, image: 'start', rotate: 0 },
                     { name: 'The Peristyle Sprint Start', x: 56038, y: 1275460, image: 'sprintstart', rotate: -15 },
-                    { name: 'The Peristyle Sprint', x: 90295, y:1255762, image: 'sprint', rotate: 50 },
+                    { name: 'The Peristyle Sprint', x: 90295, y: 1255762, image: 'sprint', rotate: 50 },
+                    { name: 'Brooklyn Bridge KOM Start', x: -192365, y: 529082, image: 'climbstart', rotate: 0 },
+                    { name: 'Brooklyn Bridge KOM', x: -162133, y: 685160, image: 'kom', rotate: 0 },
                 ])
             }
         },
