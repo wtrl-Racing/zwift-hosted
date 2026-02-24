@@ -100,7 +100,7 @@ module.exports = {
                     { name: 'The Hill KOM', x: 66615, y: 1080933, image: 'kom', rotate: 0 },
                     { name: 'Start Banner', x: 37526.816, y: 1109787, image: 'start', rotate: 0 },
                     { name: 'The Peristyle Sprint Start', x: 56038, y: 1275460, image: 'sprintstart', rotate: -15 },
-                    { name: 'The Peristyle Sprint', x: 90295, 1256762, y: 1275460, image: 'sprint', rotate: -15 },
+                    { name: 'The Peristyle Sprint', x: 90295, y:1256762, image: 'sprint', rotate: -15 },
                 ])
             }
         },
