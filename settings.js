@@ -91,7 +91,11 @@ module.exports = {
                 get: () => Promise.resolve([
                     { name: 'KOM', x: -19500, y: 20700, image: 'kom', rotate: -60 },
                     { name: 'Sprint Banner', x: -6000, y: -49500, image: 'sprint', rotate: 35 },
-                    { name: 'Start Banner', x: 79500, y: -106000, image: 'start', rotate: 10 }
+                    { name: 'Start Banner', x: 79500, y: -106000, image: 'start', rotate: 10 },
+                    { name: 'Start Banner', x: -85917, y: 303308, image: 'start', rotate: 0 },
+                    { name: 'Power Test', x: -189902, y: 433985, image: 'sprint', rotate: 30 },
+                    { name: 'Manhattan Sprint Fwd Start', x: -125956, y: 643472, image: 'sprintstart', rotate: -15 },
+                    { name: 'Manhattan Sprint', x: -115353, y: 666944, image: 'sprint', rotate: -15 },
                 ])
             }
         },
