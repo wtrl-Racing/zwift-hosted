@@ -56,9 +56,9 @@ module.exports = {
             credit: { prompt: 'Powered by', name: 'WTRL Racing', href: 'https://www.wtrl.racing' },
             points: {
                 get: () => Promise.resolve([
-                    { name: 'Start Banner', x: -8764, y: 12332, image: 'start', rotate: 40 }
+                    { name: 'Start Banner', x: -8764, y: 12332, image: 'start', rotate: 40 },
                     { name: 'Monument Ave Sprint', x: 145912, y: -235695, image: 'sprint', rotate: 40 },
-                    { name: 'Broad St Sprint', x: 20000, y: -27332, image: 'kom', rotate: 40 },
+                    { name: 'Broad St Sprint', x: 20000, y: -27332, image: 'sprint', rotate: 40 },
                     { name: 'Libby Hill KOM', x: -177500, y: 173332, image: 'kom', rotate: 40 },
                     { name: '23rd St KOM', x: -121500, y: 144332, image: 'kom', rotate: 130 },
                 ])
