@@ -96,6 +96,8 @@ module.exports = {
                     { name: 'Power Test', x: -189902, y: 433985, image: 'sprint', rotate: 30 },
                     { name: 'Manhattan Sprint Fwd Start', x: -125956, y: 643472, image: 'sprintstart', rotate: -15 },
                     { name: 'Manhattan Sprint', x: -115353, y: 666944, image: 'sprint', rotate: -15 },
+                    { name: 'The Hill KOM Start', x: 85942.87, y: 1123035.2, image: 'climbstart', rotate: 0 },
+                    { name: 'The Hill KOM', x: 66615, y: 1080933, image: 'kom', rotate: 0 },
                 ])
             }
         },
