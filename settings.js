@@ -200,12 +200,32 @@ module.exports = {
         11: {
             map: '/maps/paris.png',
             background: '#C5C5C5',
-            viewBox: '-423500 -423500 847000 847000',
+            // viewBox: '-423500 -423500 847000 847000',
+            viewBox: '-211650 -211750 635000 635000',
             rotate: "(0,0,0)",
             translate: "(0,0)",
             credit: { prompt: 'Powered by', name: 'WTRL Racing', href: 'https://www.wtrl.racing' },
             points: {
                 get: () => Promise.resolve([
+                    { name: 'Start Banner', x: -3784, y: 34427, image: 'start', rotate: 5 }
+                    { name: 'Champs-Élysées Fwd', x: -247291.55, y: -106437.42, image: 'sprintstart', rotate: 90, segmentlength: 6600 },
+                    { name: 'Champs-Élysées Rev', x: -247291.55, y: -106437.42, image: 'sprintstart', rotate: 90, segmentlength: 6600 },
+
+                    { name: 'Église Arch', x: -247291.55, y: -106437.42, image: 'sprint', rotate: 90, segmentlength: 250 },
+                    { name: 'Église Sprint Fwd', x: -247291.55, y: -106437.42, image: 'sprintstart', rotate: 90, segmentlength: 250 },
+
+                    { name: 'Lutece Sprint Arch', x: -247291.55, y: -106437.42, image: 'sprint', rotate: 90, segmentlength: 151 },
+                    { name: 'Lutece Sprint Fwd', x: -247291.55, y: -106437.42, image: 'sprintstart', rotate: 90, segmentlength: 151 },
+                    { name: 'Lutece Sprint Rev', x: -247291.55, y: -106437.42, image: 'sprintstart', rotate: 90, segmentlength: 232 },
+
+                    { name: 'Monceau Sprint Arch', x: -247291.55, y: -106437.42, image: 'sprint', rotate: 90, segmentlength: 300 },
+                    { name: 'Monceau Sprint Fwd', x: -247291.55, y: -106437.42, image: 'sprintstart', rotate: 90, segmentlength: 300 },
+
+                    { name: 'Montmartre KOM Arch', x: -310622.78, y: 47188.207, image: 'kom', rotate: 0 },
+                    { name: 'Montmartre KOM Fwd', x: -247291.55, y: -106437.42, image: 'climbstart', rotate: 90, segmentlength: 1200 },
+
+                    { name: 'Tchou Tchou Sprint Arch', x: -247291.55, y: -106437.42, image: 'sprint', rotate: 90, segmentlength: 150 },
+                    { name: 'Tchou Tchou Sprint Fwd', x: -247291.55, y: -106437.42, image: 'sprintstart', rotate: 90, segmentlength: 150 },
                 ])
             }
         },
