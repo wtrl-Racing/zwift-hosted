@@ -206,25 +206,27 @@ module.exports = {
             credit: { prompt: 'Powered by', name: 'WTRL Racing', href: 'https://www.wtrl.racing' },
             points: {
                 get: () => Promise.resolve([
-                    { name: 'Start Banner', x: -5074.4395, y: 14721.95, image: 'start', rotate: 27 },
+                    { name: 'Start Banner', x: -6574, y: 14721, image: 'start', rotate: 27 },
                     //{ name: 'Champs-Élysées Fwd', x: -247291.55, y: -106437.42, image: 'sprintstart', rotate: 90, segmentlength: 6600 },
                     //{ name: 'Champs-Élysées Rev', x: -247291.55, y: -106437.42, image: 'sprintstart', rotate: 90, segmentlength: 6600 },
 
-                    { name: 'Église Arch', x: 81494.2, y: 41905.207, image: 'sprint', rotate: 60, segmentlength: 250 },
-                    //{ name: 'Église Sprint Fwd', x: -247291.55, y: -106437.42, image: 'sprintstart', rotate: 90, segmentlength: 250 },
+                    { name: 'Lutece Sprint Arch', x: 52253, y: -105333, image: 'sprint', rotate: 27 },
+                    { name: 'Lutece Sprint Fwd', x: 47079, y: -92956, image: 'sprintstart', rotate: 117, segmentlength: 151 },
+                    { name: 'Lutece Sprint Rev', x: 62737, y: -126337, image: 'sprintstart', rotate: 297, segmentlength: 232 },
 
-                    { name: 'Lutece Sprint Arch', x: 53253.49, y: -105333.7, image: 'sprint', rotate: 27 },
-                    { name: 'Lutece Sprint Fwd', x: 47079.52, y: -92956.41, image: 'sprintstart', rotate: 117, segmentlength: 151 },
-                    { name: 'Lutece Sprint Rev', x: 62737.92, y: -126337.26, image: 'sprintstart', rotate: 27, segmentlength: 232 },
+                    { name: 'Monceau Sprint Arch', x: 142798, y: -36885, image: 'sprint', rotate: 170, },
+                    { name: 'Monceau Sprint Fwd', x: 132930, y: -63000, image: 'sprintstart', rotate: 250, segmentlength: 300 },
 
-                    { name: 'Monceau Sprint Arch', x: 142798.44, y: -36885.8, image: 'sprint', rotate: 170, segmentlength: 300 },
-                    //{ name: 'Monceau Sprint Fwd', x: 0, y: 0, image: 'sprintstart', rotate: 90, segmentlength: 300 },
+                    { name: 'Montmartre KOM Arch', x: 211801, y: 195463, image: 'kom', rotate: 200 },
+                    { name: 'Montmartre KOM Fwd', x: 183912, y: 120380, image: 'climbstart', rotate: 300, segmentlength: 1200 },
 
-                    { name: 'Montmartre KOM Arch', x: 212801.83, y: 195463.45, image: 'kom', rotate: 200 },
-                    //{ name: 'Montmartre KOM Fwd', x: 183063.52, y: 124156.0, image: 'climbstart', rotate: 90, segmentlength: 1200 },
+                    { name: 'Tchou Tchou Sprint Arch', x: 163494, y: 48905, image: 'sprint', rotate: 340 },
+                    { name: 'Tchou Tchou Sprint Fwd', x: 168287, y: 62991, image: 'sprintstart', rotate: 75, segmentlength: 150 },
 
-                    { name: 'Tchou Tchou Sprint Arch', x: 161494, y: 41905, image: 'sprint', rotate: 340, segmentlength: 150 },
-                    //{ name: 'Tchou Tchou Sprint Fwd', x: 51279.625, y: 56375.598, image: 'sprintstart', rotate: 90, segmentlength: 150 },
+                    { name: 'Église Arch', x: 81494, y: 40905, image: 'sprint', rotate: 60 },
+                    { name: 'Église Sprint Fwd', x: 57000, y: 54700, image: 'sprintstart', rotate: 145, segmentlength: 250 },
+
+                    
                 ])
             }
         },
