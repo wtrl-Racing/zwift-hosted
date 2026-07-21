@@ -200,14 +200,13 @@ module.exports = {
         11: {
             map: '/maps/paris.png',
             background: '#C5C5C5',
-            // viewBox: '-423500 -423500 847000 847000',
-            viewBox: '-211650 -211750 635000 635000',
+            viewBox: '-423500 -423500 847000 847000',
             rotate: "(0,0,0)",
             translate: "(0,0)",
             credit: { prompt: 'Powered by', name: 'WTRL Racing', href: 'https://www.wtrl.racing' },
             points: {
                 get: () => Promise.resolve([
-                    { name: 'Start Banner', x: -3784, y: 34427, image: 'start', rotate: 5 }
+                    /* { name: 'Start Banner', x: -3784, y: 34427, image: 'start', rotate: 5 }
                     { name: 'Champs-Élysées Fwd', x: -247291.55, y: -106437.42, image: 'sprintstart', rotate: 90, segmentlength: 6600 },
                     { name: 'Champs-Élysées Rev', x: -247291.55, y: -106437.42, image: 'sprintstart', rotate: 90, segmentlength: 6600 },
 
@@ -226,6 +225,7 @@ module.exports = {
 
                     { name: 'Tchou Tchou Sprint Arch', x: -247291.55, y: -106437.42, image: 'sprint', rotate: 90, segmentlength: 150 },
                     { name: 'Tchou Tchou Sprint Fwd', x: -247291.55, y: -106437.42, image: 'sprintstart', rotate: 90, segmentlength: 150 },
+                    */
                 ])
             }
         },
