@@ -210,21 +210,21 @@ module.exports = {
                     //{ name: 'Champs-Élysées Fwd', x: -247291.55, y: -106437.42, image: 'sprintstart', rotate: 90, segmentlength: 6600 },
                     //{ name: 'Champs-Élysées Rev', x: -247291.55, y: -106437.42, image: 'sprintstart', rotate: 90, segmentlength: 6600 },
 
-                    //{ name: 'Église Arch', x: -247291.55, y: -106437.42, image: 'sprint', rotate: 90, segmentlength: 250 },
+                    { name: 'Église Arch', x: 81494.2, y: 41905.207, image: 'sprint', rotate: 90, segmentlength: 250 },
                     //{ name: 'Église Sprint Fwd', x: -247291.55, y: -106437.42, image: 'sprintstart', rotate: 90, segmentlength: 250 },
 
                     { name: 'Lutece Sprint Arch', x: 53253.49, y: -105333.7, image: 'sprint', rotate: 27 },
-                    { name: 'Lutece Sprint Fwd', x: 47079.52, y: -92956.41, image: 'sprintstart', rotate: 117, segmentlength: 151 },
+                    //{ name: 'Lutece Sprint Fwd', x: 47079.52, y: -92956.41, image: 'sprintstart', rotate: 117, segmentlength: 151 },
                     //{ name: 'Lutece Sprint Rev', x: -247291.55, y: -106437.42, image: 'sprintstart', rotate: 90, segmentlength: 232 },
 
                     { name: 'Monceau Sprint Arch', x: 142798.44, y: -36885.8, image: 'sprint', rotate: 170, segmentlength: 300 },
-                    //{ name: 'Monceau Sprint Fwd', x: -247291.55, y: -106437.42, image: 'sprintstart', rotate: 90, segmentlength: 300 },
+                    //{ name: 'Monceau Sprint Fwd', x: 0, y: 0, image: 'sprintstart', rotate: 90, segmentlength: 300 },
 
-                    //{ name: 'Montmartre KOM Arch', x: -310622.78, y: 47188.207, image: 'kom', rotate: 0 },
-                    //{ name: 'Montmartre KOM Fwd', x: -247291.55, y: -106437.42, image: 'climbstart', rotate: 90, segmentlength: 1200 },
+                    { name: 'Montmartre KOM Arch', x: 212801.83, y: 195463.45, image: 'kom', rotate: 200 },
+                    //{ name: 'Montmartre KOM Fwd', x: 183063.52, y: 124156.0, image: 'climbstart', rotate: 90, segmentlength: 1200 },
 
-                    //{ name: 'Tchou Tchou Sprint Arch', x: -247291.55, y: -106437.42, image: 'sprint', rotate: 90, segmentlength: 150 },
-                    //{ name: 'Tchou Tchou Sprint Fwd', x: -247291.55, y: -106437.42, image: 'sprintstart', rotate: 90, segmentlength: 150 },
+                    //{ name: 'Tchou Tchou Sprint Arch', x: 51279.625, y: 56375.598, image: 'sprint', rotate: 90, segmentlength: 150 },
+                    //{ name: 'Tchou Tchou Sprint Fwd', x: 51279.625, y: 56375.598, image: 'sprintstart', rotate: 90, segmentlength: 150 },
                 ])
             }
         },
