@@ -214,8 +214,8 @@ module.exports = {
                     //{ name: 'Église Sprint Fwd', x: -247291.55, y: -106437.42, image: 'sprintstart', rotate: 90, segmentlength: 250 },
 
                     { name: 'Lutece Sprint Arch', x: 53253.49, y: -105333.7, image: 'sprint', rotate: 27 },
-                    //{ name: 'Lutece Sprint Fwd', x: 47079.52, y: -92956.41, image: 'sprintstart', rotate: 117, segmentlength: 151 },
-                    //{ name: 'Lutece Sprint Rev', x: -247291.55, y: -106437.42, image: 'sprintstart', rotate: 90, segmentlength: 232 },
+                    { name: 'Lutece Sprint Fwd', x: 47079.52, y: -92956.41, image: 'sprintstart', rotate: 117, segmentlength: 151 },
+                    { name: 'Lutece Sprint Rev', x: 62737.92, y: -126337.26, image: 'sprintstart', rotate: 27, segmentlength: 232 },
 
                     { name: 'Monceau Sprint Arch', x: 142798.44, y: -36885.8, image: 'sprint', rotate: 170, segmentlength: 300 },
                     //{ name: 'Monceau Sprint Fwd', x: 0, y: 0, image: 'sprintstart', rotate: 90, segmentlength: 300 },
