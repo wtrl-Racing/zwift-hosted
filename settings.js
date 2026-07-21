@@ -49,7 +49,7 @@ module.exports = {
                     //{ name: 'Jarvis KOM Fwd Start', x: -53031.402, y: -294337.0, image: 'climbstart', rotate: 270 },
                     //{ name: 'Jarvis KOM Fwd Rev', x: -78253, y: -294337, image: 'climbstart', rotate: 270 },
 
-                    { name: 'Jarvis Start/Finish', x: -18893, y: -240607, image: 'start', rotate: 270 }
+                    { name: 'Jarvis Start/Finish', x: -18893, y: -240607, image: 'start', rotate: 270 },
                     { name: 'Jarvis Sprint Arch', x: -56532, y: -206065, image: 'sprint', rotate: 90 },
                     //{ name: 'Jarvis Sprint Start', x: -78253, y: -204434, image: 'sprintstart', rotate: 270 }
                 ])
