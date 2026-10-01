@@ -247,10 +247,10 @@ module.exports = {
             credit: { prompt: 'Powered by', name: 'WTRL Racing', href: 'https://www.wtrl.racing' },
             points: {
                 get: () => Promise.resolve([
-                    { name: 'Flatland Loop Arch', x: -207024.81, y: 73895.0, image: 'start', rotate: 0, archId: 0 },
+                    { name: 'Flatland Loop Arch', x: -207024.81, y: 73895.0, image: 'start', rotate: 80, archId: 0 },
                     { name: 'Castle To Castle Start Arch', x: -355175.2, y: 14265.63, image: 'start', rotate: 34, archId: 0 },
                     { name: 'Sea to Tree Start Arch', x: 67821.96, y: 216455.23, image: 'start', rotate: 25, archId: 0 },
-                    { name: 'Factory Island Start Arch 1', x: -515479.47, y: -258036.72, image: 'start', rotate: 25, archId: 0 },
+                    { name: 'Factory Island Start Arch 1', x: -515479.47, y: -258036.72, image: 'start', rotate: 50, archId: 0 },
                     { name: 'Factory Island Start Arch 2', x: -507508.12, y: -278402.94, image: 'start', rotate: -50, archId: 0 },
 
                     { name: 'Castle KQOM', x: -102054, y: 112391.54, image: 'kom', rotate: 120, archId: 3 },
