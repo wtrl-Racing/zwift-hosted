@@ -262,7 +262,7 @@ module.exports = {
                     { name: 'Railway Sprint', x: -401190.3, y: 43402.43, image: 'sprint', rotate: 100, archId: 8 },
                     { name: 'Tower Sprint', x: -473635.38, y: -5284.0474, image: 'sprint', rotate: 90, archId: 9 },
                     { name: 'Alley Sprint', x: -566526.1, y: 120271.93, image: 'sprint', rotate: -30, archId: 10 },
-                    { name: 'Castle Park Sprint', x: -565464.75, y: 63487.91, image: 'sprint', rotate: 90, archId: 11 },
+                    { name: 'Castle Park Sprint', x: -565464.75, y: 63487.91, image: 'sprint', rotate: -10, archId: 11 },
                     { name: 'Tide Pool Sprint', x: -574205.3, y: -171051.8, image: 'sprint', rotate: 80, archId: 12 },
                     { name: 'Boardwalk Sprint', x: -618929.7, y: -322645.28, image: 'sprint', rotate: 90, archId: 12 },
                     { name: 'Shisa Sprint', x: -666683, y: -358964.06, image: 'sprint', rotate: 43, archId: 14 },
