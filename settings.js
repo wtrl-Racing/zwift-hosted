@@ -241,7 +241,7 @@ module.exports = {
         9: {
             map: '/maps/makuriislands.png',
             background: '#7B9937',
-            viewBox: '-1135000 -772000 1220000 1220000',
+            viewBox: '-1109000 -770000 1220000 1270000',
             rotate: "(0,0,0)",
             translate: "(0,0)",
             credit: { prompt: 'Powered by', name: 'WTRL Racing', href: 'https://www.wtrl.racing' },
