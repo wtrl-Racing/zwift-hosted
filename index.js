@@ -1,4 +1,6 @@
-﻿const Server = require('zwift-second-screen/server/server');
+﻿require('dotenv').config({ path: require('path').join(__dirname, '.env') });
+
+const Server = require('zwift-second-screen/server/server');
 const Login = require('zwift-second-screen/server/login');
 const RiderId = require('zwift-second-screen/server/riderId');
 const settings = require('./settings');
