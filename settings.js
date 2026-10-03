@@ -6,7 +6,7 @@ module.exports = {
     worlds: {
         1: {
             map: '/maps/watopia.png',
-            roads: '/maps/watopia-roads.json',
+            roads: '/roads/watopia-roads.json',
             background: '#0886E4',
             viewBox: '-973000 -835500 1555300 1145400', // '-691045 -808000 1570300 1106100',
             rotate: "(-90,122141,234864)",
@@ -74,7 +74,7 @@ module.exports = {
         },
         3: {
             map: '/maps/london.png',
-            roads: '/maps/london-roads.json',
+            roads: '/roads/london-roads.json',
             background: '#7C9938',
             viewBox: '-67500 -383000 847000 847000',
             rotate: "(0,0,0)",
@@ -91,7 +91,7 @@ module.exports = {
         },
         4: {
             map: '/maps/newyork.png',
-            roads: '/maps/newyork-roads.json',
+            roads: '/roads/newyork-roads.json',
             background: '#B9B9B9',
             viewBox: '-388500 -554000 847000 2540463',
             rotate: "(0,0,0)",
@@ -122,7 +122,7 @@ module.exports = {
         },
         5: {
             map: '/maps/innsbruck.png',
-            roads: '/maps/innsbruck-roads.json',
+            roads: '/roads/innsbruck-roads.json',
             background: '#7C9938',
             viewBox: '-343000 -243000 991000 991000',
             rotate: "(0,0,0)",
@@ -130,9 +130,10 @@ module.exports = {
             credit: { prompt: 'Powered by', name: 'WTRL Racing', href: 'https://www.wtrl.racing' },
             points: {
                 get: () => Promise.resolve([
+                    { name: 'Start Banner', x: -3784, y: 34427, image: 'start', rotate: 5 },
                     { name: 'KoM', x: 185000, y: 629900, image: 'kom', rotate: 15 },
                     { name: 'Sprint Banner', x: 33138, y: -71634, image: 'sprint', rotate: 50 },
-                    { name: 'Start Banner', x: -3784, y: 34427, image: 'start', rotate: 5 }
+                    //{ name: 'Leg Snapper', x: 0, y: 0, image: 'kom', rotate: 15 }
                 ])
             }
         },
@@ -150,7 +151,7 @@ module.exports = {
         },
         7: {
             map: '/maps/yorkshire.png',
-            roads: '/maps/yorkshire-roads.json',
+            roads: '/roads/yorkshire-roads.json',
             background: '#7C9938',
             viewBox: '-590000 -380000 847000 847000',
             rotate: "(0,0,0)",
@@ -173,75 +174,13 @@ module.exports = {
                 ])
             }
         },
-        10: {
-            map: '/maps/france.png',
-            background: '#6E9A29',
-            viewBox: '-678447 -610687 1270500 1270500',
-            rotate: "(0,0,0)",
-            translate: "(0,0)",
-            credit: { prompt: 'Powered by', name: 'WTRL Racing', href: 'https://www.wtrl.racing' },
-            points: {
-                get: () => Promise.resolve([
-                    { name: 'Sprint en ballon Fwd', x: -247291.55, y: -106437.42, image: 'sprintstart', rotate: 90, segmentlength: 210 },
-                    { name: 'Sprint en ballon', x: -274705.97, y: -107773.24, image: 'sprint', rotate: 70 },
-                    { name: 'Sprint en ballon Rev', x: -291141.44, y: -114804.4, image: 'sprintstart', rotate: 45, segmentlength: 320 },
-
-                    { name: 'Aqueduc KQOM Fwd', x: -123859.24, y: -135913.56, image: 'climbstart', rotate: 30 },
-                    { name: 'Aqueduc', x: -94242.2, y: -146578.3, image: 'kom', rotate: 30 },
-                    { name: 'Aqueduc KQOM Rev', x: -99473.586, y: -172890.92, image: 'climbstart', rotate: 300 },
-
-                    { name: 'Sprint en Pavé Fwd', x: -47485.848, y: -233251.88, image: 'sprintstart', rotate: 90, segmentlength: 0 },
-                    { name: 'Sprint en Pavé', x: -30210.646, y: -257683.1, image: 'sprint', rotate: 0 },
-                    { name: 'Sprint en Pavé Rev', x: -46596.625, y: -283099.3, image: 'sprintstart', rotate: 290, segmentlength: 0 },
-
-                    { name: 'Sprint en Marina Fwd', x: -483842.6, y: -224176.94, image: 'sprintstart', rotate: 90, segmentlength: 0 },
-                    { name: 'Départ de la marina', x: -475820.1, y: -239852.78, image: 'start', rotate: 50 },
-                    { name: 'Sprint en Marina Rev', x: -485555.1, y: -267500.25, image: 'sprintstart', rotate: 290, segmentlength: 0 },
-
-                    { name: 'Petit KQOM Fwd', x: -285486.38, y: -53821.797, image: 'climbstart', rotate: 30 },
-                    { name: 'Petit', x: -310622.78, y: 47188.207, image: 'kom', rotate: 0 },
-                    { name: 'Petit KQOM Rev', x: -405119.6, y: -12063.793, image: 'climbstart', rotate: 270 },
-
-                ])
-            }
-        },
-        11: {
-            map: '/maps/paris.png',
-            background: '#C5C5C5',
-            viewBox: '-211650 -211750 635000 635000',
-            rotate: "(0,0,0)",
-            translate: "(0,0)",
-            credit: { prompt: 'Powered by', name: 'WTRL Racing', href: 'https://www.wtrl.racing' },
-            points: {
-                get: () => Promise.resolve([
-                    { name: 'Start Banner', x: -6574, y: 14721, image: 'start', rotate: 27 },
-                    //{ name: 'Champs-Élysées Fwd', x: -247291.55, y: -106437.42, image: 'sprintstart', rotate: 90, segmentlength: 6600 },
-                    //{ name: 'Champs-Élysées Rev', x: -247291.55, y: -106437.42, image: 'sprintstart', rotate: 90, segmentlength: 6600 },
-
-                    { name: 'Lutece Sprint Arch', x: 52253, y: -105333, image: 'sprint', rotate: 27 },
-                    { name: 'Lutece Sprint Fwd', x: 47079, y: -92956, image: 'sprintstart', rotate: 117, segmentlength: 151 },
-                    { name: 'Lutece Sprint Rev', x: 62737, y: -126337, image: 'sprintstart', rotate: 297, segmentlength: 232 },
-
-                    { name: 'Monceau Sprint Arch', x: 142798, y: -36885, image: 'sprint', rotate: 170, },
-                    { name: 'Monceau Sprint Fwd', x: 132930, y: -63000, image: 'sprintstart', rotate: 250, segmentlength: 300 },
-
-                    { name: 'Montmartre KOM Arch', x: 211801, y: 195463, image: 'kom', rotate: 200 },
-                    { name: 'Montmartre KOM Fwd', x: 183912, y: 120380, image: 'climbstart', rotate: 300, segmentlength: 1200 },
-
-                    { name: 'Tchou Tchou Sprint Arch', x: 163494, y: 48905, image: 'sprint', rotate: 340 },
-                    { name: 'Tchou Tchou Sprint Fwd', x: 168287, y: 62991, image: 'sprintstart', rotate: 75, segmentlength: 150 },
-
-                    { name: 'Église Arch', x: 81494, y: 40905, image: 'sprint', rotate: 60 },
-                    { name: 'Église Sprint Fwd', x: 57000, y: 54700, image: 'sprintstart', rotate: 145, segmentlength: 250 },
-
-                    
-                ])
-            }
-        },
         9: {
             map: '/maps/makuriislands.png',
+            roads: '/roads/makuri-roads.json',
             background: '#7B9937',
-            viewBox: '-1109000 -770000 1220000 1270000',
+            //viewBox: '-1109000 -770000 1220000 1270000',
+            viewBox: '-1084470 -772234 1117439 1220586',
+            preserveAspectRatio: 'none',
             rotate: "(0,0,0)",
             translate: "(0,0)",
             credit: { prompt: 'Powered by', name: 'WTRL Racing', href: 'https://www.wtrl.racing' },
@@ -291,7 +230,86 @@ module.exports = {
                 ])
             }
         },
-        17: {
+        10: {
+            map: '/maps/france.png',
+            background: '#6E9A29',
+            viewBox: '-678447 -610687 1270500 1270500',
+            rotate: "(0,0,0)",
+            translate: "(0,0)",
+            credit: { prompt: 'Powered by', name: 'WTRL Racing', href: 'https://www.wtrl.racing' },
+            points: {
+                get: () => Promise.resolve([
+                    { name: 'Sprint en ballon Fwd', x: -247291.55, y: -106437.42, image: 'sprintstart', rotate: 90, segmentlength: 210 },
+                    { name: 'Sprint en ballon', x: -274705.97, y: -107773.24, image: 'sprint', rotate: 70 },
+                    { name: 'Sprint en ballon Rev', x: -291141.44, y: -114804.4, image: 'sprintstart', rotate: 45, segmentlength: 320 },
+
+                    { name: 'Aqueduc KQOM Fwd', x: -123859.24, y: -135913.56, image: 'climbstart', rotate: 30 },
+                    { name: 'Aqueduc', x: -94242.2, y: -146578.3, image: 'kom', rotate: 30 },
+                    { name: 'Aqueduc KQOM Rev', x: -99473.586, y: -172890.92, image: 'climbstart', rotate: 300 },
+
+                    { name: 'Sprint en Pavé Fwd', x: -47485.848, y: -233251.88, image: 'sprintstart', rotate: 90, segmentlength: 0 },
+                    { name: 'Sprint en Pavé', x: -30210.646, y: -257683.1, image: 'sprint', rotate: 0 },
+                    { name: 'Sprint en Pavé Rev', x: -46596.625, y: -283099.3, image: 'sprintstart', rotate: 290, segmentlength: 0 },
+
+                    { name: 'Sprint en Marina Fwd', x: -483842.6, y: -224176.94, image: 'sprintstart', rotate: 90, segmentlength: 0 },
+                    { name: 'Départ de la marina', x: -475820.1, y: -239852.78, image: 'start', rotate: 50 },
+                    { name: 'Sprint en Marina Rev', x: -485555.1, y: -267500.25, image: 'sprintstart', rotate: 290, segmentlength: 0 },
+
+                    { name: 'Petit KQOM Fwd', x: -285486.38, y: -53821.797, image: 'climbstart', rotate: 30 },
+                    { name: 'Petit', x: -310622.78, y: 47188.207, image: 'kom', rotate: 0 },
+                    { name: 'Petit KQOM Rev', x: -405119.6, y: -12063.793, image: 'climbstart', rotate: 270 },
+
+                ])
+            }
+        },
+        11: {
+            map: '/maps/paris.png',
+            roads: '/roads/paris-roads.json',
+            background: '#C5C5C5',
+            viewBox: '-211650 -211750 635000 635000',
+            rotate: "(0,0,0)",
+            translate: "(0,0)",
+            credit: { prompt: 'Powered by', name: 'WTRL Racing', href: 'https://www.wtrl.racing' },
+            points: {
+                get: () => Promise.resolve([
+                    { name: 'Start Banner', x: -6574, y: 14721, image: 'start', rotate: 27 },
+                    //{ name: 'Champs-Élysées Fwd', x: -247291.55, y: -106437.42, image: 'sprintstart', rotate: 90, segmentlength: 6600 },
+                    //{ name: 'Champs-Élysées Rev', x: -247291.55, y: -106437.42, image: 'sprintstart', rotate: 90, segmentlength: 6600 },
+
+                    { name: 'Lutece Sprint Arch', x: 52253, y: -105333, image: 'sprint', rotate: 27 },
+                    { name: 'Lutece Sprint Fwd', x: 47079, y: -92956, image: 'sprintstart', rotate: 117, segmentlength: 151 },
+                    { name: 'Lutece Sprint Rev', x: 62737, y: -126337, image: 'sprintstart', rotate: 297, segmentlength: 232 },
+
+                    { name: 'Monceau Sprint Arch', x: 142798, y: -36885, image: 'sprint', rotate: 170, },
+                    { name: 'Monceau Sprint Fwd', x: 132930, y: -63000, image: 'sprintstart', rotate: 250, segmentlength: 300 },
+
+                    { name: 'Montmartre KOM Arch', x: 211801, y: 195463, image: 'kom', rotate: 200 },
+                    { name: 'Montmartre KOM Fwd', x: 183912, y: 120380, image: 'climbstart', rotate: 300, segmentlength: 1200 },
+
+                    { name: 'Tchou Tchou Sprint Arch', x: 163494, y: 48905, image: 'sprint', rotate: 340 },
+                    { name: 'Tchou Tchou Sprint Fwd', x: 168287, y: 62991, image: 'sprintstart', rotate: 75, segmentlength: 150 },
+
+                    { name: 'Église Arch', x: 81494, y: 40905, image: 'sprint', rotate: 60 },
+                    { name: 'Église Sprint Fwd', x: 57000, y: 54700, image: 'sprintstart', rotate: 145, segmentlength: 250 },
+
+                    
+                ])
+            }
+        },
+        12: {
+            map: '/maps/gravelmountain.png',
+            background: '#f19c75',
+            viewBox: '-451000 -320000 639800 639800',
+            rotate: "(0,0,0)",
+            translate: "(0,0)",
+            credit: { prompt: 'Powered by', name: 'WTRL Racing', href: 'https://www.wtrl.racing' },
+            points: {
+                get: () => Promise.resolve([
+                    { name: 'Loch Loop Start/End', x: -189426.75, y: -65130.598, image: 'start', rotate: 270 },
+                ])
+            }
+        },
+        13: {
             map: '/maps/scotland.png',
             background: '#aba73c',
             viewBox: '-451000 -320000 639800 639800',
