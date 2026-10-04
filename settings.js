@@ -195,7 +195,7 @@ module.exports = {
                     { name: 'Harbour Start Arch', x: -611176, y: 35076.836, image: 'start', rotate: -40, archId: 0 },
                     
 
-                    { name: 'Castle KQOM', x: -102054, y: 112391.54, image: 'kom', rotate: 120, archId: 3 },
+                    { name: 'Castle KQOM', x: -102054, y: 111900, image: 'kom', rotate: 120, archId: 3 },
                     { name: 'Village Sprint', x: -103426.56, y: 124399.305, image: 'sprint', rotate: 130, archId: 4 },
                     { name: 'Country Sprint', x: -60594.54, y: 13331.565, image: 'sprint', rotate: -10, archId: 5 },
                     { name: 'Temple KQOM', x: -123410.34, y: 210561.81, image: 'kom', rotate: 130, archId: 6 },
@@ -213,9 +213,9 @@ module.exports = {
                     { name: 'Country Sprint Fwd', x: -67227.04, y: 3546.549, image: 'sprintstart', rotate: 90, segmentlength: 0 },
                     { name: 'Country Sprint Rev', x: -56473.617, y: 25881.627, image: 'sprintstart', rotate: -85, segmentlength: 0 },
                     { name: 'Temple KQOM Fwd', x: 15157.527, y: 199205.5, image: 'climbstart', rotate: 230 },
-                    { name: 'Temple KQOM Rev', x: 0, y: 0, image: 'climbstart', rotate: 30 },
-                    { name: 'Rooftop KQOM Fwd', x: 0, y: 0, image: 'climbstart', rotate: 30 },
-                    { name: 'Railway Sprint Fwd', x: 0, y: 0, image: 'sprintstart', rotate: 90, segmentlength: 0 },
+                    //{ name: 'Temple KQOM Rev', x: 0, y: 0, image: 'climbstart', rotate: 30 },
+                    //{ name: 'Rooftop KQOM Fwd', x: 0, y: 0, image: 'climbstart', rotate: 30 },
+                    //{ name: 'Railway Sprint Fwd', x: 0, y: 0, image: 'sprintstart', rotate: 90, segmentlength: 0 },
                     { name: 'Tower Sprint Fwd', x: -495726.78, y: 12725.408, image: 'sprintstart', rotate: 90, segmentlength: 0 },
                     { name: 'Tower Sprint Rev', x: -444958.97, y: 638.94305, image: 'sprintstart', rotate: 90, segmentlength: 0 },
                     { name: 'Alley Sprint Fwd', x: -593220.9, y: 89680.055, image: 'sprintstart', rotate: 90, segmentlength: 0 },
