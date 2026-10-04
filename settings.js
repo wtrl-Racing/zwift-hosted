@@ -187,11 +187,13 @@ module.exports = {
             points: {
                 get: () => Promise.resolve([
                     { name: 'Flatland Loop Arch', x: -207024.81, y: 73895.0, image: 'start', rotate: 80, archId: 0 },
+                    { name: 'Makuri 40 Start Arch', x: -181024, y: 83895, image: 'start', rotate: 50, archId: 0 },
                     { name: 'Castle To Castle Start Arch', x: -355175.2, y: 14265.63, image: 'start', rotate: 34, archId: 0 },
                     { name: 'Sea to Tree Start Arch', x: 67821.96, y: 216455.23, image: 'start', rotate: 25, archId: 0 },
                     { name: 'Factory Island Start Arch 1', x: -515479.47, y: -260036, image: 'start', rotate: 50, archId: 0 },
                     { name: 'Factory Island Start Arch 2', x: -505508, y: -279403, image: 'start', rotate: -50, archId: 0 },
                     { name: 'Harbour Start Arch', x: -611176, y: 35076.836, image: 'start', rotate: -40, archId: 0 },
+                    
 
                     { name: 'Castle KQOM', x: -102054, y: 112391.54, image: 'kom', rotate: 120, archId: 3 },
                     { name: 'Village Sprint', x: -103426.56, y: 124399.305, image: 'sprint', rotate: 130, archId: 4 },
