@@ -1,6 +1,6 @@
 {
   "name": "zwift-hosted",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "",
   "main": "index.js",
   "engines": {
@@ -27,6 +27,6 @@
     "redis": "^2.8.0",
     "strava-live-segments": "0.0.17",
     "zwift-mobile-api": "0.3.21",
-    "zwift-second-screen": "0.3.14"
+    "zwift-second-screen": "0.3.15"
   }
 }
