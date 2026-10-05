@@ -4,6 +4,7 @@ const Server = require('zwift-second-screen/server/server');
 const Login = require('zwift-second-screen/server/login');
 const RiderId = require('zwift-second-screen/server/riderId');
 const settings = require('./settings');
+const registerRoadsProxy = require('./roadsProxy');
 
 const maintenanceMode = process.env.MaintenanceMode === '1' || process.env.MaintenanceMode === 'true';
 
@@ -26,6 +27,6 @@ const riderProvider = (username && password)
       ? new RiderId(username, password)
       : new Login();
 
-const server = new Server(riderProvider, { worlds: settings.worlds, site, strava });
+const server = new Server(riderProvider, {worlds: settings.worlds,site,strava,registerRoutes: app => registerRoadsProxy(app, settings.worlds)});
 server.start(process.env.PORT || 8080);
 
