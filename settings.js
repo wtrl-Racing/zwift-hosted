@@ -14,44 +14,49 @@ module.exports = {
             credit: { prompt: 'Powered by', name: 'WTRL Racing', href: 'https://www.wtrl.racing' },
             points: {
                 get: () => Promise.resolve([
-                    { name: 'Start Banner', x: 104000, y: -10001, image: 'start', rotate: 170 },
-                   /* { name: 'Hilly Fwd Start', x: 49683, y: 54712, image: 'climbstart', rotate: 60 },*/
-                    { name: 'Hilly KOM', x: 49683, y: 54712, image: 'kom', rotate: 60 },
+                    { name: 'Downtown Watopia Arch', x: 104000, y: -10001, image: 'start', rotate: 170, archId: 0 },
+                    { name: 'Jarvis Start ARch', x: -21793, y: -240607, image: 'start', rotate: 120, archId: 0 },
+                    { name: 'JWB Sprint Arch', x: -24300, y: -40500, image: 'sprint', rotate: 60, archId: 1 },
+                    { name: 'Hilly KOM Arch', x: 49683, y: 54712, image: 'kom', rotate: 60, archId: 2 },
+                    { name: 'Epic KOM Arch', x: -361987, y: 86048, image: 'mountain', rotate: 30, archId: 3 },
+                    // { name: 'Repack Arch', x: -361987, y: 86048, image: 'kom', rotate: 30, archId: 4 },
+                    // { name: 'Volcano Lap Arch', x: -361987, y: 86048, image: 'kom', rotate: 30, archId: 4 },
+                    // { name: 'Volcano KOM Arch', x: -361987, y: 86048, image: 'kom', rotate: 30, archId: 5 },
+                    { name: 'Jungle Loop Arch', x: -498100, y: -265679, image: 'start', rotate: 10, archId: 6 },
+                    //{ name: 'Alpe du Zwift Arch', x: -498100, y: -265679, image: 'start', rotate: 10, archId: 7 },
+                    { name: 'Fuego Flats Arch', x: 62256, y: 321485, image: 'sprint', rotate: 170, archId: 8 },
+                    { name: 'Titans Grove Arch', x: -51583, y: 257712, image: 'kom', rotate: 70, archId: 9 },
+                    { name: 'Stoneway Sprint Arch', x: -725399, y: -27200, image: 'sprint', rotate: 80, archId: 71 },
+                    { name: 'Acropolis Sprint Arch', x: -727499.1, y: 25671.162, image: 'sprint', rotate: 90, archId: 72 },
+                    { name: 'Sasquatch Sprint Arch', x: -739764.1, y: 287720.56, image: 'sprint', rotate: 110, archId: 73 },
+                    { name: 'Woodland Sprint Arch', x: -498190.53, y: 448588.34, image: 'sprint', rotate: 90, archId: 74 },
+                    //{ name: 'The Grade Arch', x: -498190.53, y: 448588.34, image: 'kom', rotate: 90, archId: 77 },
+                    //{ name: 'Itza KQOM Arch', x: -498190.53, y: 448588.34, image: 'kom', rotate: 90, archId: 78 },
+                    //{ name: 'Mayan Mountainside KQOM Arch', x: -498190.53, y: 448588.34, image: 'kom', rotate: 90, archId: 79 },
+                    //{ name: 'Radio Tower KQOM Arch', x: -498190.53, y: 448588.34, image: 'kom', rotate: 90, archId: 80 },
+                    { name: 'Jarvis KOM Arch', x: -164292, y: -265638, image: 'kom', rotate: 200, archId: 81 },
+                    { name: 'Jarvis Sprint Arch', x: -56532, y: -206065, image: 'sprint', rotate: 90, archId: 82 },
+
+                    //{ name: 'Hilly Fwd Start', x: 49683, y: 54712, image: 'climbstart', rotate: 60 },
                     /*{ name: 'Hilly Rev Start', x: 49683, y: 54712, image: 'climbstart', rotate: 60 },*/
                     /*{ name: 'JWB Fwd Start', x: -24300, y: -40500, image: 'sprintstart', rotate: 60 },*/
-                    { name: 'JWB Sprint', x: -24300, y: -40500, image: 'sprint', rotate: 60 },
                     /*{ name: 'JWB Rev Start', x: -24300, y: -40500, image: 'sprintstart', rotate: 60 },
                     { name: 'Epic Fwd Start', x: -361987, y: 86048, image: 'climbstart', rotate: 30 },*/
-                    { name: 'Epic KOM', x: -361987, y: 86048, image: 'mountain', rotate: 30 },
-                    { name: 'Titans Grove KOM', x: -51583, y: 257712, image: 'kom', rotate: 70 },
-                    { name: 'Jungle Start', x: -498100, y: -265679, image: 'start', rotate: 10 },
-                    { name: 'Fuego Sprint', x: 62256, y: 321485, image: 'sprint', rotate: 170 },
                     /*{ name: 'Epic Rev Start', x: -361987, y: 86048, image: 'climbstart', rotate: 30 },
                     { name: 'Jungle Start', x: -499228, y: -263780, image: 'banner', rotate: 20 },
                     { name: 'Volcano Start', x: -209968.36, y: -55463.453, image: 'climbstart', rotate: 15 },
                     { name: 'Volcano KOM', x: 62256, y: 321485, image: 'mountian', rotate: 170 },
                     { name: 'Alpe de Zwift Start', x: -209968.36, y: -55463.453, image: 'climbstart', rotate: 15 },
                     { name: 'Alpe de Zwift', x: 62256, y: 321485, image: 'mountain', rotate: 170 },*/
-                    { name: 'Stoneway Fwd Start', x: -754399, y: -27400, image: 'sprintstart', rotate: 150 },
-                    { name: 'Stoneway Sprint', x: -725399, y: -27200, image: 'sprint', rotate: 80 },
-                    { name: 'Stoneway Rev Start', x: -725899, y: -43500, image: 'sprintstart', rotate: 150 },
                     /*{ name: 'Woodland Fwd Start', x: 62256, y: 321485, image: 'sprintstart', rotate: 170 },*/
-                    { name: 'Woodland Sprint', x: -498190.53, y: 448588.34, image: 'sprint', rotate: 90 },
                     /*{ name: 'Woodland Rev Start', x: 62256, y: 321485, image: 'sprintstart', rotate: 170 },
                     { name: 'Acropolis Fwd Start', x: -711277.56, y:298740.38, image: 'sprintstart', rotate: 15 },
                     { name: 'Acropolis Sprint', x: -727499.1, y: 25671.162, image: 'sprint', rotate: 90 },*/
                     /*{ name: 'Acropolis Rev Start', x: -227425.2, y: 65148.137, image: 'sprintstart', rotate: 15 },*/
                     { name: 'Sasquatch Fwd Start', x: -709783.8, y: 293150.53, image: 'sprintstart', rotate: 45 },
-                    { name: 'Sasquatch Sprint', x: -739764.1, y: 287720.56, image: 'sprint', rotate: 110 },
                     { name: 'Sasquatch Rev Start', x: -772783.8, y: 283150.53, image: 'sprintstart', rotate: 190 },
-
-                    { name: 'Jarvis KOM Arch', x: -164292, y: -265638, image: 'kom', rotate: 200 },
                     //{ name: 'Jarvis KOM Fwd Start', x: -53031.402, y: -294337.0, image: 'climbstart', rotate: 270 },
                     //{ name: 'Jarvis KOM Fwd Rev', x: -78253, y: -294337, image: 'climbstart', rotate: 270 },
-
-                    { name: 'Jarvis Start/Finish', x: -21793, y: -240607, image: 'start', rotate: 120 },
-                    { name: 'Jarvis Sprint Arch', x: -56532, y: -206065, image: 'sprint', rotate: 90 },
-                    //{ name: 'Jarvis Sprint Start', x: -78253, y: -204434, image: 'sprintstart', rotate: 270 }
                 ])
             }
         },
@@ -200,7 +205,7 @@ module.exports = {
                     { name: 'Temple KQOM', x: -123410.34, y: 210000, image: 'kom', rotate: 130, archId: 6 },
                     { name: 'Rooftop KQOM', x: -426834.1, y: 96230, image: 'kom', rotate: 90, archId: 7 },
                     { name: 'Railway Sprint', x: -401190.3, y: 43402.43, image: 'sprint', rotate: 100, archId: 8 },
-                    { name: 'Tower Sprint', x: -473635.38, y: 5984, image: 'sprint', rotate: 90, archId: 9 },
+                    { name: 'Tower Sprint', x: -473635.38, y: -5984, image: 'sprint', rotate: 90, archId: 9 },
                     { name: 'Alley Sprint', x: -566526.1, y: 120271.93, image: 'sprint', rotate: -30, archId: 10 },
                     { name: 'Castle Park Sprint', x: -565864, y: 63487, image: 'sprint', rotate: -10, archId: 11 },
                     { name: 'Tide Pool Sprint', x: -574785, y: -171557, image: 'sprint', rotate: 80, archId: 12 },
