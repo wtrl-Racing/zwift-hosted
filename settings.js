@@ -194,7 +194,6 @@ module.exports = {
                     { name: 'Factory Island Start Arch 2', x: -505508, y: -279403, image: 'start', rotate: -50, archId: 0 },
                     { name: 'Harbour Start Arch', x: -611176, y: 35076.836, image: 'start', rotate: -40, archId: 0 },
                     
-
                     { name: 'Castle KQOM', x: -102054, y: 111900, image: 'kom', rotate: 120, archId: 3 },
                     { name: 'Village Sprint', x: -103426.56, y: 123850, image: 'sprint', rotate: 130, archId: 4 },
                     { name: 'Country Sprint', x: -60594.54, y: 13331.565, image: 'sprint', rotate: -10, archId: 5 },
