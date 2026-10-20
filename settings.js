@@ -7,6 +7,7 @@ module.exports = {
         1: {
             map: '/maps/watopia.png',
             roads: '/roads/watopia-roads.json',
+            segments: '/roads/watopia-segments.json',
             background: '#0886E4',
             viewBox: '-973000 -835500 1555300 1145400', // '-691045 -808000 1570300 1106100',
             rotate: "(-90,122141,234864)",
@@ -62,6 +63,8 @@ module.exports = {
         },
         2: {
             map: '/maps/richmond.png',
+            roads: '/roads/richmond-roads.json',
+            segments: '/roads/richmond-segments.json',
             background: '#B9B9B9',
             viewBox: '-445000 -480000 847000 847000',
             rotate: "(-90,170389,190060)",
@@ -80,6 +83,7 @@ module.exports = {
         3: {
             map: '/maps/london.png',
             roads: '/roads/london-roads.json',
+            segments: '/roads/london-segments.json',
             background: '#7C9938',
             viewBox: '-67500 -383000 847000 847000',
             rotate: "(0,0,0)",
@@ -97,6 +101,7 @@ module.exports = {
         4: {
             map: '/maps/newyork.png',
             roads: '/roads/newyork-roads.json',
+            segments: '/roads/newyork-segments.json',
             background: '#B9B9B9',
             viewBox: '-388500 -554000 847000 2540463',
             rotate: "(0,0,0)",
@@ -128,6 +133,7 @@ module.exports = {
         5: {
             map: '/maps/innsbruck.png',
             roads: '/roads/innsbruck-roads.json',
+            segments: '/roads/innsbruck-segments.json',
             background: '#7C9938',
             viewBox: '-343000 -243000 991000 991000',
             rotate: "(0,0,0)",
@@ -144,6 +150,8 @@ module.exports = {
         },
         6: {
             map: '/maps/bologna.png',
+            roads: '/roads/bologna-roads.json',
+            segments: '/roads/bologna-segments.json',
             background: '#C5C5C5',
             viewBox: '-637200 -401400 847000 847000',
             rotate: "(0,0,0)",
@@ -157,6 +165,7 @@ module.exports = {
         7: {
             map: '/maps/yorkshire.png',
             roads: '/roads/yorkshire-roads.json',
+            segments: '/roads/yorkshire-segments.json',
             background: '#7C9938',
             viewBox: '-590000 -380000 847000 847000',
             rotate: "(0,0,0)",
@@ -169,6 +178,8 @@ module.exports = {
         },
         8: {
             map: '/maps/critcity.png',
+            roads: '/roads/critcity-roads.json',
+            segments: '/roads/critcity-segments.json',
             background: '#C5C5C5',
             viewBox: '-206000 -208100 423500 423500',
             rotate: "(0,0,0)",
@@ -182,6 +193,7 @@ module.exports = {
         9: {
             map: '/maps/makuriislands.png',
             roads: '/roads/makuri-roads.json',
+            segments: '/roads/makuri-segments.json',
             background: '#7B9937',
             viewBox: '-1109000 -770000 1220000 1270000',
             //viewBox: '-1084470 -772234 1117439 1220586',
@@ -238,6 +250,8 @@ module.exports = {
         },
         10: {
             map: '/maps/france.png',
+            roads: '/roads/france-roads.json',
+            segments: '/roads/france-segments.json',
             background: '#6E9A29',
             viewBox: '-678447 -610687 1270500 1270500',
             rotate: "(0,0,0)",
@@ -271,6 +285,7 @@ module.exports = {
         11: {
             map: '/maps/paris.png',
             roads: '/roads/paris-roads.json',
+            segments: '/roads/paris-segments.json',
             background: '#C5C5C5',
             viewBox: '-211650 -211750 635000 635000',
             rotate: "(0,0,0)",
@@ -304,6 +319,7 @@ module.exports = {
         },
         12: {
             map: '/maps/gravelmountain.png',
+            segments: '/roads/gravelmountain-segments.json',
             background: '#f19c75',
             viewBox: '-451000 -320000 639800 639800',
             rotate: "(0,0,0)",
@@ -317,6 +333,7 @@ module.exports = {
         },
         13: {
             map: '/maps/scotland.png',
+            segments: '/roads/scotland-segments.json',
             background: '#aba73c',
             viewBox: '-451000 -320000 639800 639800',
             rotate: "(0,0,0)",
