@@ -58,6 +58,7 @@ module.exports = {
                     { name: 'Sasquatch Rev Start', x: -772783.8, y: 283150.53, image: 'sprintstart', rotate: 190 },
                     //{ name: 'Jarvis KOM Fwd Start', x: -53031.402, y: -294337.0, image: 'climbstart', rotate: 270 },
                     //{ name: 'Jarvis KOM Fwd Rev', x: -78253, y: -294337, image: 'climbstart', rotate: 270 },
+                    { name: 'Seafoam Start Arch', x: -167645, y: -415414, image: 'sprintstart', rotate: 70 },
                 ])
             }
         },
